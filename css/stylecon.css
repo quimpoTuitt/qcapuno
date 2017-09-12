@@ -63,6 +63,17 @@ footer {
     left: 0;
 }
 
+html,
+body {
+    background-color: #55aace;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:required {
+    background-color: #e1e8ed;
+ /*   opacity: 0.5;*/
+}
+
 /* Style all font awesome icons */
 .fa {
     padding: 15px;
@@ -85,98 +96,24 @@ footer {
     color: white;
 }
 
-
 /*endfooter*/
 
 
-/*landing page*/
+/*contact*/
 
-.jumbotron { 
-    font-family: 'Montserrat', sans-serif;
-    background-color: #55aace;
-    color: #ffffff;
-    text-align: center;
-    padding: 100px 25px;
-}
-.container-fluid {
-    padding: 60px 50px;
+#contact {
+    padding-top: 80px;
+    color: white;
+    margin-bottom: 195px;
 }
 
-.jumbotron > p {
-    color:  #292f33;
-    padding-bottom: 50px;
+#contact p {
+    color: #292f33;
 }
 
-/*.form-inline {
-    margin: 10 auto;
-}*/
-
-.calendar {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 auto;
-}
-.bookbtn {
-    padding-top: 25px;
-
+#contact h2 {
+    padding-bottom: 20px;
 }
 
-.input-group {
-    width: 100%;
-}
-
-#checko {
-    width: 100%;
-}
-
-#checki {
-    width: 100%;
-}
-
-#calbtn {
-    margin: 0;
-}
-
-/*endlanding*/
-
-.logo {
-    font-size: 200px;
-}
-@media screen and (max-width: 768px) {
-    .col-sm-4 {
-        text-align: center;
-        margin: 25px 0;
-    }
-}
-
-#secpic {
-    background-color: #55aace;
-}
-
-#gal1,
-#secpic,
-#gal3 {
-    font-family: 'Anton', sans-serif;
-}
-
-#gal1 h2 {
-    font-family: 'Lobster', cursive;
-    color: #55aace;
-}
-
-#gal3 h2 {
-    font-family: 'Lobster', cursive;
-    color: #55aace;
-}
-
-#secpic h2 {
-    font-family: 'Lobster', cursive;
-    color: yellow;
-}
-/*endhome*/
-
-
-
-
-
+/*endcontact*/
 

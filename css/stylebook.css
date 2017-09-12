@@ -88,92 +88,110 @@ footer {
 
 /*endfooter*/
 
-
-/*landing page*/
-
-.jumbotron { 
-    font-family: 'Montserrat', sans-serif;
-    background-color: #55aace;
-    color: #ffffff;
-    text-align: center;
-    padding: 100px 25px;
+body, html {
+	font-family: 'Montserrat', sans-serif;
 }
+
 .container-fluid {
-    padding: 60px 50px;
+	padding-top: 80px;
+	margin-bottom: 250px;
 }
 
-.jumbotron > p {
-    color:  #292f33;
-    padding-bottom: 50px;
+
+/*bookpanel*/
+
+/*#fd5c63 red airbnb*/
+
+
+.fa-trophy {
+	color: yellow;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
 }
 
-/*.form-inline {
-    margin: 10 auto;
-}*/
-
-.calendar {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 auto;
-}
-.bookbtn {
-    padding-top: 25px;
-
+#panelhead {
+	background-color: #292f33;
+	color: white;
+	opacity: 0.95;
+	font-size: 15px;
+	margin-bottom: 0;
 }
 
-.input-group {
-    width: 100%;
+.panel-body {
+	width: 100%;
 }
 
-#checko {
-    width: 100%;
+
+.body {
+	margin-top: 50px;
 }
 
-#checki {
-    width: 100%;
+#detr {
+	text-align: right;
 }
 
-#calbtn {
+#detl {
+	text-align: left;
+}
+
+#dont{
+	text-align: center;
+}
+
+.fa-heart-o {
+	margin: 5px;
+	padding: 5px;
+}
+
+.fa-heart-o:hover {
+	color: red;
+}
+#btnwish {
+	background-color: white;
+	border-color: black;
+	color: black;
+}
+
+#btnwish:hover {
+	color: red;
+}
+
+#btnwish strong {
+	margin-right: 20px;
+}
+
+#trav {
+	text-align: center;
+}
+
+#smline {
+	text-align: center;
+}
+
+#wishdet {
+	border-radius: 10px;
+	margin-top: 10px;
+	padding: 0;
+}
+
+
+
+/*end4col*/
+
+#atak h1 {
+    font-size: 55px;
+}
+
+#amlogo {
+    text-align: center;
+}
+
+hr {
+    padding: 10px 10px;
     margin: 0;
 }
 
-/*endlanding*/
-
-.logo {
-    font-size: 200px;
-}
-@media screen and (max-width: 768px) {
-    .col-sm-4 {
-        text-align: center;
-        margin: 25px 0;
-    }
-}
-
-#secpic {
-    background-color: #55aace;
-}
-
-#gal1,
-#secpic,
-#gal3 {
-    font-family: 'Anton', sans-serif;
-}
-
-#gal1 h2 {
-    font-family: 'Lobster', cursive;
-    color: #55aace;
-}
-
-#gal3 h2 {
-    font-family: 'Lobster', cursive;
-    color: #55aace;
-}
-
-#secpic h2 {
-    font-family: 'Lobster', cursive;
-    color: yellow;
-}
-/*endhome*/
 
 
 

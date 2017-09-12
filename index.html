@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="./css/bootstrap-theme.css">
 <link rel="stylesheet" type="text/css" href="./css/style.css">
-<link rel="stylesheet" type="text/css" href="css/basic-template.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- fonts -->
 <link href="https://fonts.googleapis.com/css?family=Anton|Lobster|Montserrat|Pacifico" rel="stylesheet">
@@ -28,15 +28,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-      <a class="navbar-brand" href="#"><img class="img-responsive" src="logo.png"></a>
+      <a class="navbar-brand" href="index.html"><img class="img-responsive" src="logo.png"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">HOME</a></li>
+        <li><a href="index.html">HOME</a></li>
         <li><a href="#services">ACCOMODATION</a></li>
-        <li><a href="#portfolio">FAQS</a></li>
-        <li><a href="#pricing">CONTACT US</a></li>
-        <a href="#"><button class="btn btn-success navbar-btn">BOOK NOW</button></a>
+        <li><a href="indexfaq.html">FAQS</a></li>
+        <li><a href="indexcon.html">CONTACT US</a></li>
+        <a href="indexbook.html"><button class="btn btn-success navbar-btn">BOOK NOW</button></a>
       </ul>
     </div>
   </div>
@@ -49,17 +49,26 @@
   	<p><em> Your very own beach house just three hours away from Manila </em></p> 
 
 <!-- checkin -->
-	<div class="calendar">
-		<form class="form-inline">
-    		<div class="input-group">
-      			<input type="text" class="form-control" placeholder="Check In Date" required onmouseover=(this.type="date") onblur=(this.type="text") name="checkin">
-      				<div class="input-group-btn">
-        				<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></button>
-      				</div>
-    		</div>
-  		</form>
-  	</div>
- <!-- endcheckin -->
+  <div class="calendar">
+    <form class="form-inline">
+        <div class="input-group">
+          <div class="row">
+            <div class="container col-md-9 col-sm-9 col-xs-10 col-md-offset-1">
+               <input type="text" class="form-control" placeholder="Check In Date" required onmouseover=(this.type="date") onblur=(this.type="text") name="checkin" id="checki">
+            </div>
+
+
+            <div class="container col-md-1 col-sm-1 col-xs-2">
+              <!-- <div class="input-group-btn"> -->
+                <button type="button" class="btn btn-info" id="calbtn"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></button>
+              <!-- </div> -->
+            </div>
+
+          </div><!-- endofrow -->
+        </div>
+      </form>
+    </div>
+<!-- endcheckin -->
 
 <br>
 
@@ -67,10 +76,19 @@
  	<div class="calendar">
 		<form class="form-inline">
     		<div class="input-group">
-      			<input type="text" class="form-control" placeholder="Check Out Date" required onmouseover=(this.type="date") onblur=(this.type="text") name="checkout">
-      				<div class="input-group-btn">
+          <div class="row">
+            <div class="container col-md-9 col-sm-9 col-xs-10 col-md-offset-1">
+      			   <input type="text" class="form-control" placeholder="Check Out Date" required onmouseover=(this.type="date") onblur=(this.type="text") name="checkout" id="checko">
+            </div>
+
+
+            <div class="container col-md-1 col-sm-1 col-xs-2">
+      				<!-- <div class="input-group-btn"> -->
         				<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></button>
-      				</div>
+      			<!-- 	</div> -->
+            </div>
+
+          </div><!-- endofrow -->
     		</div>
   		</form>
   	</div>
@@ -78,13 +96,18 @@
 
 <!-- bookbtn -->
 <div class="row bookbtn">
-   <a href="index2.html">
-   <button id="btncal" class="btn col-md-6 col-sm-10 col-xs-12 btn-block btn-success"> 
+   <a href="indexbook.html">
+   <button id="btncal" class="btn col-md-10 col-sm-10 col-xs-12 col-md-offset-1 btn-success"> 
    <strong>BOOK NOW</strong>
    </button></a>
 </div> <!-- endbookbtn -->
 
+<br>
+
+
 </div> <!-- endjumbo -->
+
+
 
 <!-- startgal -->
 
@@ -93,7 +116,7 @@
     <div class="col-sm-8">
       <h2>The Batangas shore line all for yourself</h2>
 
-      <p>Sea Breeze Beach House is a private beach house perfect for barkada outings, family reunions and company team buildings. The homey feel mixed with the beach vibe surely makes everyone at ease in Sea Breeze. </p>
+      <p>Sea Breeze Beach House is a private beach house perfect for beach outings, family reunions and company team buildings. The homey feel mixed with the beach vibe surely makes everyone at ease in Sea Breeze. </p>
     </div>
     <div class="col-sm-4">
       <img src="1.jpg">
@@ -119,7 +142,7 @@
     <div class="col-sm-8">
       <h2>The perfect quick get-away with family and friends</h2>
       
-      <p>Sea Breeze was originally built and designed for a family of doctors. Everyone would go to Laiya,Batangas every weekend and stay at the beach house for the weekend. It was built with comfort and relaxation in mind. The birds in the logo symbolizes the parents and 3 trees represent their children. </p>
+      <p>Sea Breeze was originally built and designed for a family of doctors. Everyone would go to Laiya,Batangas every weekend and stay at the beach house. It was built with comfort and relaxation in mind. The birds in the logo symbolizes the parents and 3 trees represent their children. </p>
     </div>
     <div class="col-sm-4">
       <img src="3.png">
@@ -136,13 +159,16 @@
 
 
 <footer>
-	<small> Copyright &copy 2017 | Sea Breeze Beach House |</small>
-		<br>
-	<small>Designed by Charles Quimpo | Powered by Tuitt Inc. </small>
+<div class="contact">
+    You can also follow us on <a href="https://www.facebook.com/seabreezebeachhouse/"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+    <br>
+      </div>
+  <small> Copyright &copy 2017 | Sea Breeze Beach House |</small>
+    <br>
+  <small>Designed by Charles Quimpo | Powered by Tuitt Inc. </small>
 
-		<div class="contact">
-		<!-- Social media accounts -->
-    	</div>
+
+    
 </footer>
 
 
