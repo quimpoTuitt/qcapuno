@@ -14,6 +14,7 @@
 
 .navbar li a, .navbar .navbar-brand {
     color: #55aace !important;
+      font-weight: bold;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
@@ -47,6 +48,7 @@
 
 .navbar-btn {
     margin-left: 20px;
+      font-weight: bold;
 }
 /*endnavbar*/
 
@@ -123,10 +125,10 @@ body, html {
     padding: 100px 25px;
 }
 
-.container-fluid {
+/*.container-fluid {
     padding: 60px 50px;
 }
-
+*/
 
 
 

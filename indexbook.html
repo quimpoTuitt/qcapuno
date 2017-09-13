@@ -34,7 +34,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.html">HOME</a></li>
-        <li><a href="#services">ACCOMODATION</a></li>
+        <li><a href="indexbook.html">ACCOMODATION</a></li>
         <li><a href="indexfaq.html">FAQS</a></li>
         <li><a href="indexcon.html">CONTACT US</a></li>
         <a href="#"><button class="btn btn-success navbar-btn">BOOK NOW</button></a>
@@ -47,14 +47,12 @@
 
 
 <div class="container body">
-  <h1>Hello World!</h1>
-  <p>Resize the browser window to see the effect.</p>
   <div class="row">
 
 
 <!-- start4col -->
 
-  	<div class="col-md-4 col-sm-4 col-xs-12 pull-right" style="background-color:lavenderblush;" id="con4">.col-sm-4
+  	<div class="col-md-4 col-sm-4 col-xs-12 pull-right" id="con4">
   		
   		<div class="container col-md-12">
   			<div class="panel panel-default col-md-12" id="panelhead">
@@ -75,20 +73,29 @@
     <div class="panel-body">
     
         <div class="row" id="bookdet">
-  			<div class="col-md-6 col-sm-6 col-xs-12">Check In</div>
-        	<div class="col-md-6 col-sm-6 col-xs-12">Check Out</div>
+  			<div class="col-md-6 col-sm-6 col-xs-12">Check In
+        <br>
+        <input type="text" class="form-control" placeholder="Arrival Date" required onmouseover=(this.type="date") onblur=(this.type="text") name="checkin" id="checki"> 
+        </div>
+
+        	<div class="col-md-6 col-sm-6 col-xs-12">Check Out
+          <br>
+          <input type="text" class="form-control" placeholder="Check Out" required onmouseover=(this.type="date") onblur=(this.type="text") name="checkout" id="checko">
+
+
+          </div>
         </div>
         
-        <div class="row" id="bookdet">
+        <!-- <div class="row" id="bookdet">
   			<div class="col-md-6 col-sm-6 col-xs-12"> 
   				<input type="text" class="form-control" placeholder="Arrival Date" required onmouseover=(this.type="date") onblur=(this.type="text") name="checkin" id="checki"> 
-  			</div>
+  			</div> -->
 
-        		<div class="col-md-6 col-sm-6 col-xs-12"><input type="text" class="form-control" placeholder="Check Out" required onmouseover=(this.type="date") onblur=(this.type="text") name="checkout" id="checko">
+        		<!-- <div class="col-md-6 col-sm-6 col-xs-12"><input type="text" class="form-control" placeholder="Check Out" required onmouseover=(this.type="date") onblur=(this.type="text") name="checkout" id="checko">
         		</div>
         </div>
-        
-
+         -->
+<br>
         <!-- start#guests -->
 
         <div class="row" id="bookdet">
@@ -199,17 +206,77 @@
 
 	
 
-    	<div class="col-md-8 col-sm-8 col-xs-12" style="background-color:lavender;" id="atak"><h1><strong>Don't worry,</strong></h1>
+    	<div class="col-md-8 col-sm-8 col-xs-12" id="atak"><h1><strong>Don't worry,</strong></h1>
 
         <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12" style="background-color:red;" id="atak"><h1><strong>you won't be charged yet.
+          <div class="col-md-12 col-sm-12 col-xs-12" id="atak"><h1><strong>you won't be charged yet.
           </strong></h1></div>
         </div>
 
-        <hr>
+
+
 
         <div class="row">
-          <div class="col-md-3 col-sm-3 col-xs-6" style="background-color:lightcyan;" id="amlogo">
+          <div class="col-md-12 col-sm-12 col-xs-12" id="ikot">
+<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+  <span style="font-style:normal;"><img src="a.jpg"></span>
+    </div>
+    <div class="item">
+     <span style="font-style:normal;"><img src="b.jpg"></span>
+    </div>
+    <div class="item">
+      <span style="font-style:normal;"><img src="c.jpg"></span>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="row">
+          <div class="col-md-3 col-sm-3 col-xs-6" id="amlogo">
 
           <i class="fa fa-life-ring fa-2x" aria-hidden="true"></i><br><span class="text-small"><p>Beach front house</p></span>
 
@@ -218,19 +285,19 @@
 
           </div>
 
-          <div class="col-md-3 col-sm-3 col-xs-6" style="background-color:lightgray;" id="amlogo">
+          <div class="col-md-3 col-sm-3 col-xs-6" id="amlogo">
 
           <i class="fa fa-users fa-2x" aria-hidden="true"></i><br><span class="text-small"><p>Up to 25 guests</p></span>
 
 
           </div>
         
-          <div class="col-md-3 col-sm-3 col-xs-6" style="background-color:lightcyan;" id="amlogo">
+          <div class="col-md-3 col-sm-3 col-xs-6" id="amlogo">
           <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i><br>
           <span class="text-small"><p>Great location</p></span>
           </div>
 
-          <div class="col-md-3 col-sm-3 col-xs-6" style="background-color:lightgray;" id="amlogo">
+          <div class="col-md-3 col-sm-3 col-xs-6" id="amlogo">
           <i class="fa fa-binoculars fa-2x" aria-hidden="true"></i><br> <span class="text-small"><p>Viewing deck</p></span>
           </div>
         </div>
@@ -238,80 +305,81 @@
         <hr>
 
            <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12" style="background-color:pink;"><h4><strong>you won't be charged yet.
+          <div class="col-md-12 col-sm-12 col-xs-12"><h4><strong>Details 
+
           </strong></h4></div>
         </div>
 
 
       	<div class="row">
-        	<div class="col-md-6 col-sm-6 col-xs-12" style="background-color:blue;">.col-sm-6</div>
+        	<div class="col-md-6 col-sm-6 col-xs-12">Accomdates: <strong>Up to 25 peope</strong></div>
 
-        	<div class="col-md-6 col-sm-6 col-xs-12" style="background-color:red;">.col-sm-6</div>
+        	<div class="col-md-6 col-sm-6 col-xs-12">Check in: <strong>Anytime after 2 PM </strong></div>
         </div>
 
 
      
         <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12" style="background-color:blue;">.col-sm-6</div>
+          <div class="col-md-6 col-sm-6 col-xs-12">Property type: <strong>Private Beach House</strong></div>
 
-          <div class="col-md-6 col-sm-6 col-xs-12" style="background-color:red;">.col-sm-6</div>
+          <div class="col-md-6 col-sm-6 col-xs-12">Check out: <strong>12 PM</strong></div>
         </div>
 
 
      
         <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12" style="background-color:blue;">.col-sm-6</div>
+          <div class="col-md-6 col-sm-6 col-xs-12">Bedrooms: <strong>3</strong></div>
 
-          <div class="col-md-6 col-sm-6 col-xs-12" style="background-color:red;">.col-sm-6</div>
+          <div class="col-md-6 col-sm-6 col-xs-12">Bathrooms:<strong>2</strong></div>
         </div>
 
 
      
-        <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12" style="background-color:blue;">.col-sm-6</div>
+        <div class="row" id="b4hr">
+          <div class="col-md-6 col-sm-6 col-xs-12">Car Garage: <strong>Yes</strong></div>
 
-          <div class="col-md-6 col-sm-6 col-xs-12" style="background-color:red;">.col-sm-6</div>
+          <div class="col-md-6 col-sm-6 col-xs-12">Kitchenware: <strong>Yes</strong></div>
         </div>
 
 
      <hr>
 
            <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12" style="background-color:pink;"><h4><strong>you won't be charged yet.
+          <div class="col-md-12 col-sm-12 col-xs-12"><h4><strong>Prices
           </strong></h4></div>
         </div>
 
 
         <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12" style="background-color:blue;">.col-sm-6</div>
+          <div class="col-md-6 col-sm-6 col-xs-12"><strong>P15,000/night on weekdays (Monday-Thursday)</strong> good for 15-20 people</div>
 
-          <div class="col-md-6 col-sm-6 col-xs-12" style="background-color:red;">.col-sm-6</div>
+          <div class="col-md-6 col-sm-6 col-xs-12"><strong>P20,000/night on weekends and holidays </strong>good for 15-20 people</div>
         </div>
 
 
      
-        <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12" style="background-color:blue;">.col-sm-6</div>
+        <div class="row" id="b4hr">
+          <div class="col-md-6 col-sm-6 col-xs-12">Extra People: <strong>P500/night after 20 guests</strong> </div>
 
-          <div class="col-md-6 col-sm-6 col-xs-12" style="background-color:red;">.col-sm-6</div>
+          <div class="col-md-6 col-sm-6 col-xs-12">Low Season Discount: <strong>20% off</strong></div>
         </div>
 
 
      
-        <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12" style="background-color:blue;">.col-sm-6</div>
+      
+<hr>
 
-          <div class="col-md-6 col-sm-6 col-xs-12" style="background-color:red;">.col-sm-6</div>
+         <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12"><h4><strong>Cancellations
+          </strong></h4></div>
         </div>
 
-
-     
-        <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12" style="background-color:blue;">.col-sm-6</div>
-
-          <div class="col-md-6 col-sm-6 col-xs-12" style="background-color:red;">.col-sm-6</div>
+         <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12" id="b4hr"><h4><small>Cancel up to 7 days before check in and get a 50% refund (minus service fees). Cancel within 7 days of your trip and the reservation is non-refundable. Service fees are refunded when cancellation happens before check in and within 48 hours of booking.
+          </small></h4></div>
         </div>
 
+        <hr>
 
 
 
@@ -340,7 +408,6 @@
 
 
 
-<div class="column_1rnz84d-o_O-column-sm-3_1c7jm1s" data-reactid="229"><i class="icon icon-private-room icon-size" aria-hidden="true" data-reactid="230"></i><br data-reactid="231"><span class="text-small" data-reactid="232">Private room</span></div>
 
 
 
