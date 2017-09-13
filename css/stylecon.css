@@ -126,15 +126,15 @@ body {
 
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #55aace;
+    color: #f5f8fa;
 }
 
 .carousel-indicators li {
-    border-color: #55aace;
+    border-color: #f5f8fa;
 }
 
 .carousel-indicators li.active {
-    background-color: #55aace;
+    background-color: #f5f8fa;
 }
 
 .item h4 {
