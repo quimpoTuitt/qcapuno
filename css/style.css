@@ -52,18 +52,17 @@
 }
 /*endnavbar*/
 
-footer {
+/*footer {
     background-color: #292f33;
     min-height: 30px;
     padding: 5px;
     text-align: center;
     color: white;
     width: 100%;
-   /* position: absolute;*/
     right: 0;
     bottom: 0;
     left: 0;
-}
+}*/
 
 /* Style all font awesome icons */
 .fa {
@@ -177,8 +176,17 @@ footer {
 }
 /*endhome*/
 
+body{
+    padding-bottom: 100px;
+}
 
+#fw { 
+    color: white;
+}
 
+#fbf {
+   display: block;
+}
 
 
 
