@@ -10,6 +10,7 @@
 <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="./css/bootstrap-theme.css">
 <link rel="stylesheet" type="text/css" href="./css/stylebook.css">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- fonts -->
@@ -52,18 +53,16 @@
 
 <!-- start4col -->
 
-  	<div class="col-md-4 col-sm-4 col-xs-12 pull-right" id="con4">
+  	<div id="bookNow" class="col-md-4 col-sm-4 col-xs-12 pull-right" id="con4">
   		
   		<div class="container col-md-12">
-  			<div class="panel panel-default col-md-12" id="panelhead">
-    			<div class="panel-body">
-
-    				<i class="fa fa-trophy fa-lg" aria-hidden="true"></i>
-
-    				<em>Book now and get <strong>20%</strong> off</em>
-				</div>
-  			</div>
-		</div> <!-- endcontainer -->
+    			<div class="panel panel-default col-md-12" id="panelhead">
+      			<div class="panel-body">
+        				<i class="fa fa-trophy fa-lg" aria-hidden="true"></i>
+        				<em>Book now and get <strong>20%</strong> off</em>
+    				</div>
+    			</div>
+  		</div> <!-- endcontainer -->
 
 
 <!--start-->
@@ -148,10 +147,9 @@
 
         <div class="row" id="bookdet">
   			<div class="col-md-12 col-sm-12 col-xs-12">
-  				<a href="indexbook.html">
-   					<button id="btncal" class="btn col-md-10 col-sm-10 col-xs-12 col-md-offset-1 btn-success"> 
+   					<button id="btncal" class="btn col-md-10 col-sm-10 col-xs-12 col-md-offset-1 btn-success" data-toggle="modal" data-target="#myModal""> 
    					<strong>BOOK</strong></button>
-   				</a>
+
    			</div>
         </div>
         
@@ -203,9 +201,26 @@
 
 	<!-- end4col-->
 
+            <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
 
-	
-
+<!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Congratulations!</h4>
+        </div>
+        <div class="modal-body">
+          <p>Your reservation has been placed. See you!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
     	<div class="col-md-8 col-sm-8 col-xs-12" id="atak"><h1><strong>Don't worry,</strong></h1>
 
         <div class="row">

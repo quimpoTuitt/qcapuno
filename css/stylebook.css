@@ -240,3 +240,40 @@ hr {
     margin-bottom: 30px;
 }
 
+/* fixed sidebar */
+#bookNow {
+    position: fixed;
+    right: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+    #bookNow {
+        position: static;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 960px){
+    #bookNow {
+        position: static;
+    }
+}
+
+/*.modal-backdrop {
+  z-index:-1;
+}
+
+.modal {
+   position: relative;
+   top: 10px;
+   right: 100px;
+   bottom: 0;
+   left: 0;
+   z-index: 10040;
+   overflow: auto;
+   overflow-y: auto;
+}*/
+
+
+.modal {
+   margin-top: 150px;
+}
